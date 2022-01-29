@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <fr.ganfra.materialspinner.MaterialSpinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Steering_Lock"
+            app:ms_arrowColor="@color/colorAccent"
+            app:ms_arrowSize="16dp"
+            app:ms_floatingLabelColor="@color/colorPrimary"
+            app:ms_floatingLabelText="Steering_Lock"
+            app:ms_hint="Steering_Lock"
+            app:ms_hintColor="@color/colorAccent"
+            app:ms_multiline="true">
+
+        </fr.ganfra.materialspinner.MaterialSpinner>
+
+        <fr.ganfra.materialspinner.MaterialSpinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Steering_Lock"
+            android:id="@+id/Wheel_Alignment_Balancing_Wobbling"
+            app:ms_arrowColor="@color/colorAccent"
+            app:ms_arrowSize="16dp"
+            app:ms_floatingLabelColor="@color/colorPrimary"
+            app:ms_floatingLabelText="Wheel_Alignment_Balancing_Wobbling"
+            app:ms_hint="Wheel_Alignment_Balancing_Wobbling"
+            app:ms_hintColor="@color/colorAccent"
+            app:ms_multiline="true">
+
+        </fr.ganfra.materialspinner.MaterialSpinner>
+
+
+        <fr.ganfra.materialspinner.MaterialSpinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Wheel_Alignment_Balancing_Wobbling"
+            android:id="@+id/Steering_Operation"
+            app:ms_arrowColor="@color/colorAccent"
+            app:ms_arrowSize="16dp"
+            app:ms_floatingLabelColor="@color/colorPrimary"
+            app:ms_floatingLabelText="Steering_Operation"
+            app:ms_hint="Steering_Operation"
+            app:ms_hintColor="@color/colorAccent"
+            app:ms_multiline="true">
+
+        </fr.ganfra.materialspinner.MaterialSpinner>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SAVE"
+            android:layout_marginLeft="100dp"
+            android:background="@color/navy"
+            android:textColor="@color/CanvasBackground"
+            android:layout_below="@+id/Steering_Operation"
+            android:id="@+id/save8"
+            tools:ignore="UnknownId" />
+    </RelativeLayout>
+</ScrollView>

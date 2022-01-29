@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Camera">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*">
+            <TableRow>
+                <ImageView
+                    android:id="@+id/image1"
+                    android:layout_width="0dp"
+                    android:layout_height="130dp"
+                    android:layout_column="0"/>
+                <ImageView
+                    android:id="@+id/image2"
+                    android:layout_width="0dp"
+                    android:layout_height="130dp"
+                    android:layout_column="1"/>
+
+            </TableRow>
+            <TableRow>
+                <Button
+                    android:id="@+id/button1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/CanvasBackground"
+                    android:background="@color/navy"
+                    android:text="1" />
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="wrap_content"
+                    android:background="@color/navy"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="@color/CanvasBackground"
+                    android:text="2" />
+
+
+            </TableRow>
+
+            <TableRow>
+                <ImageView
+                    android:id="@+id/image3"
+                    android:layout_width="0dp"
+                    android:layout_height="130dp"
+                    android:layout_column="0"/>
+                <ImageView
+                    android:id="@+id/image4"
+                    android:layout_width="0dp"
+                    android:layout_height="130dp"
+                    android:layout_column="1"/>
+
+            </TableRow>
+            <TableRow>
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/navy"
+                    android:textColor="@color/CanvasBackground"
+                    android:text="3" />
+                <Button
+                    android:id="@+id/button4"
+                    android:layout_marginLeft="20dp"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/navy"
+                    android:textColor="@color/CanvasBackground"
+                    android:text="4" />
+            </TableRow>
+
+            <TableRow>
+                <ImageView
+                    android:id="@+id/image5"
+                    android:layout_width="0dp"
+                    android:layout_height="130dp"
+                    android:layout_column="0"/>
+                <ImageView
+                    android:id="@+id/image6"
+                    android:layout_width="0dp"
+                    android:layout_height="130dp"
+                    android:layout_column="1"/>
+
+            </TableRow>
+            <TableRow>
+                <Button
+                    android:id="@+id/button5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/navy"
+                    android:textColor="@color/CanvasBackground"
+                    android:text="5" />
+                <Button
+                    android:id="@+id/button6"
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="@color/CanvasBackground"
+                    android:layout_height="wrap_content"
+                    android:background="@color/navy"
+                    android:text="6" />
+            </TableRow>
+
+            <TableRow>
+                <ImageView
+                    android:id="@+id/image7"
+                    android:layout_width="0dp"
+                    android:layout_height="130dp"
+                    android:layout_column="0"/>
+                <ImageView
+                    android:id="@+id/image8"
+                    android:layout_width="0dp"
+                    android:layout_height="130dp"
+                    android:layout_column="1"/>
+
+            </TableRow>
+            <TableRow>
+                <Button
+                    android:id="@+id/button7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/CanvasBackground"
+                    android:background="@color/navy"
+                    android:text="7" />
+                <Button
+
+                    android:id="@+id/button8"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="@color/CanvasBackground"
+                    android:background="@color/navy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="8" />
+            </TableRow>
+
+            <TableRow>
+
+                <Button
+
+                    android:id="@+id/save"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="50dp"
+                    android:background="@color/navy"
+                    android:text="UPlOOAD IMAGES"
+                    android:textColor="@color/CanvasBackground" />
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+
+</RelativeLayout>

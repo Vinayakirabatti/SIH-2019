@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "18550788476",
+    "firebase_url": "https://nustahackathon.firebaseio.com",
+    "project_id": "nustahackathon",
+    "storage_bucket": "nustahackathon.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:18550788476:android:6296128097645f0b",
+        "android_client_info": {
+          "package_name": "com.example.nustahackathon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "18550788476-2v38vmqfobjr2d61tt7o8fafeqhov4t9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nustahackathon",
+            "certificate_hash": "6a72431113183d695360f187ca8e0aa4f5c8e5f2"
+          }
+        },
+        {
+          "client_id": "18550788476-u8c6dmvp5kn1fgu08horf9t268aq62sq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoIdGmnz0lLN4hpjsi7XaKzvAqgUQzbz0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "18550788476-u8c6dmvp5kn1fgu08horf9t268aq62sq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

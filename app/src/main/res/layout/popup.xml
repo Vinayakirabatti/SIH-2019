@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <fr.ganfra.materialspinner.MaterialSpinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Silencer"
+            app:ms_arrowColor="@color/colorAccent"
+            app:ms_arrowSize="16dp"
+            app:ms_floatingLabelColor="@color/colorPrimary"
+            app:ms_floatingLabelText="SILENCER"
+            app:ms_hint="SILENCER"
+            app:ms_hintColor="@color/colorAccent"
+            app:ms_multiline="true">
+
+        </fr.ganfra.materialspinner.MaterialSpinner>
+        <fr.ganfra.materialspinner.MaterialSpinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Silencer"
+            android:id="@+id/Abnormal_Engine_Noise"
+            app:ms_arrowColor="@color/colorAccent"
+            app:ms_arrowSize="16dp"
+            app:ms_floatingLabelColor="@color/colorPrimary"
+            app:ms_floatingLabelText="Abnormal_Engine_Noise"
+            app:ms_hint="Abnormal_Engine_Noise"
+            app:ms_hintColor="@color/colorAccent"
+            app:ms_multiline="true">
+
+        </fr.ganfra.materialspinner.MaterialSpinner>
+        <fr.ganfra.materialspinner.MaterialSpinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Abnormal_Engine_Noise"
+            android:id="@+id/Plugs"
+            app:ms_arrowColor="@color/colorAccent"
+            app:ms_arrowSize="16dp"
+            app:ms_floatingLabelColor="@color/colorPrimary"
+            app:ms_floatingLabelText="Plugs"
+            app:ms_hint="Plugs"
+            app:ms_hintColor="@color/colorAccent"
+            app:ms_multiline="true">
+
+        </fr.ganfra.materialspinner.MaterialSpinner>
+
+
+        <fr.ganfra.materialspinner.MaterialSpinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Plugs"
+            android:id="@+id/Oil"
+            app:ms_arrowColor="@color/colorAccent"
+            app:ms_arrowSize="16dp"
+            app:ms_floatingLabelColor="@color/colorPrimary"
+            app:ms_floatingLabelText="Oil"
+            app:ms_hint="Oil"
+            app:ms_hintColor="@color/colorAccent"
+            app:ms_multiline="true">
+
+        </fr.ganfra.materialspinner.MaterialSpinner>
+
+        <fr.ganfra.materialspinner.MaterialSpinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Oil"
+            android:id="@+id/Radiator_Condenser"
+            app:ms_arrowColor="@color/colorAccent"
+            app:ms_arrowSize="16dp"
+            app:ms_floatingLabelColor="@color/colorPrimary"
+            app:ms_floatingLabelText="Radiator_Condenser"
+            app:ms_hint="Radiator_Condenser"
+            app:ms_hintColor="@color/colorAccent"
+            app:ms_multiline="true">
+
+        </fr.ganfra.materialspinner.MaterialSpinner>
+
+        <fr.ganfra.materialspinner.MaterialSpinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Radiator_Condenser"
+            android:id="@+id/Oil_Leakage"
+            app:ms_arrowColor="@color/colorAccent"
+            app:ms_arrowSize="16dp"
+            app:ms_floatingLabelColor="@color/colorPrimary"
+            app:ms_floatingLabelText="Oil_Leakage"
+            app:ms_hint="Oil_Leakage"
+            app:ms_hintColor="@color/colorAccent"
+            app:ms_multiline="true">
+
+        </fr.ganfra.materialspinner.MaterialSpinner>
+        <fr.ganfra.materialspinner.MaterialSpinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Oil_Leakage"
+            android:id="@+id/Fan_Belts"
+            app:ms_arrowColor="@color/colorAccent"
+            app:ms_arrowSize="16dp"
+            app:ms_floatingLabelColor="@color/colorPrimary"
+            app:ms_floatingLabelText="Fan_Belts"
+            app:ms_hint="Fan_Belts"
+            app:ms_hintColor="@color/colorAccent"
+            app:ms_multiline="true">
+
+        </fr.ganfra.materialspinner.MaterialSpinner>
+
+        <fr.ganfra.materialspinner.MaterialSpinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Fan_Belts"
+            android:id="@+id/Filters"
+            app:ms_arrowColor="@color/colorAccent"
+            app:ms_arrowSize="16dp"
+            app:ms_floatingLabelColor="@color/colorPrimary"
+            app:ms_floatingLabelText="Filters"
+            app:ms_hint="Filters"
+            app:ms_hintColor="@color/colorAccent"
+            app:ms_multiline="true">
+
+        </fr.ganfra.materialspinner.MaterialSpinner>
+
+        <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SAVE"
+        android:layout_below="@+id/Filters"
+        android:id="@+id/save7"
+            android:layout_marginLeft="100dp"
+            android:textColor="@color/CanvasBackground"
+            android:background="@color/green"
+        tools:ignore="UnknownId" />
+    </RelativeLayout>
+ </ScrollView>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <fr.ganfra.materialspinner.MaterialSpinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Seat_Covers"
+            app:ms_arrowColor="@color/colorAccent"
+            app:ms_arrowSize="16dp"
+            app:ms_floatingLabelColor="@color/colorPrimary"
+            app:ms_floatingLabelText="Seat_Covers"
+            app:ms_hint="Seat_Covers"
+            app:ms_hintColor="@color/colorAccent"
+            app:ms_multiline="true">
+
+        </fr.ganfra.materialspinner.MaterialSpinner>
+
+        <fr.ganfra.materialspinner.MaterialSpinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Seat_Covers"
+            android:id="@+id/Fog_Lamps"
+            app:ms_arrowColor="@color/colorAccent"
+            app:ms_arrowSize="16dp"
+            app:ms_floatingLabelColor="@color/colorPrimary"
+            app:ms_floatingLabelText="Fog_Lamps"
+            app:ms_hint="Fog_Lamps"
+            app:ms_hintColor="@color/colorAccent"
+            app:ms_multiline="true">
+
+        </fr.ganfra.materialspinner.MaterialSpinner>
+
+        <fr.ganfra.materialspinner.MaterialSpinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Fog_Lamps"
+            android:id="@+id/Music_System"
+            app:ms_arrowColor="@color/colorAccent"
+            app:ms_arrowSize="16dp"
+            app:ms_floatingLabelColor="@color/colorPrimary"
+            app:ms_floatingLabelText="Music_System"
+            app:ms_hint="Music_System"
+            app:ms_hintColor="@color/colorAccent"
+            app:ms_multiline="true">
+
+        </fr.ganfra.materialspinner.MaterialSpinner>
+
+        <fr.ganfra.materialspinner.MaterialSpinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Music_System"
+            android:id="@+id/Floor_Mats"
+            app:ms_arrowColor="@color/colorAccent"
+            app:ms_arrowSize="16dp"
+            app:ms_floatingLabelColor="@color/colorPrimary"
+            app:ms_floatingLabelText="Floor_Mats"
+            app:ms_hint="Floor_Mats"
+            app:ms_hintColor="@color/colorAccent"
+            app:ms_multiline="true">
+
+        </fr.ganfra.materialspinner.MaterialSpinner>
+
+        <fr.ganfra.materialspinner.MaterialSpinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Floor_Mats"
+            android:id="@+id/Speakers"
+            app:ms_arrowColor="@color/colorAccent"
+            app:ms_arrowSize="16dp"
+            app:ms_floatingLabelColor="@color/colorPrimary"
+            app:ms_floatingLabelText="Speakers"
+            app:ms_hint="Speakers"
+            app:ms_hintColor="@color/colorAccent"
+            app:ms_multiline="true">
+
+        </fr.ganfra.materialspinner.MaterialSpinner>
+
+        <fr.ganfra.materialspinner.MaterialSpinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Speakers"
+            android:id="@+id/Tipping_Systems"
+            app:ms_arrowColor="@color/colorAccent"
+            app:ms_arrowSize="16dp"
+            app:ms_floatingLabelColor="@color/colorPrimary"
+            app:ms_floatingLabelText="Tipping_Systems"
+            app:ms_hint="Tipping_Systems"
+            app:ms_hintColor="@color/colorAccent"
+            app:ms_multiline="true">
+
+        </fr.ganfra.materialspinner.MaterialSpinner>
+
+        <fr.ganfra.materialspinner.MaterialSpinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Tipping_Systems"
+            android:id="@+id/Odometer"
+            app:ms_arrowColor="@color/colorAccent"
+            app:ms_arrowSize="16dp"
+            app:ms_floatingLabelColor="@color/colorPrimary"
+            app:ms_floatingLabelText="Odometer"
+            app:ms_hint="Odometer"
+            app:ms_hintColor="@color/colorAccent"
+            app:ms_multiline="true">
+
+        </fr.ganfra.materialspinner.MaterialSpinner>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SAVE"
+            android:background="@color/navy"
+            android:textColor="@color/CanvasBackground"
+            android:layout_marginLeft="100dp"
+            android:layout_below="@+id/Odometer"
+            android:id="@+id/save1"
+            tools:ignore="UnknownId" />
+    </RelativeLayout>
+</ScrollView>

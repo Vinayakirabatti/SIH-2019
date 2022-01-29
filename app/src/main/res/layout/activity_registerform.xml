@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sunrise"
+    tools:context=".registerform">
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/ScrollView01"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="170dp"
+        android:layout_height="104dp"
+        android:background="@drawable/aich_main"
+
+        android:layout_marginTop="80dp"
+        android:id="@+id/register"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+
+        android:background="@drawable/rounded_white"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+
+        android:textSize="14sp"
+        android:drawablePadding="5dp"
+        android:singleLine="true"
+        android:padding="10dp"
+
+        android:layout_marginBottom="0dp"
+
+
+        android:hint="   ENTER USERNAME "
+        android:ems="10"
+
+        android:layout_below="@+id/register"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/user"
+        />
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+
+        android:background="@drawable/rounded_white"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+
+        android:textSize="14sp"
+        android:drawablePadding="5dp"
+        android:singleLine="true"
+        android:padding="10dp"
+
+        android:layout_marginBottom="0dp"
+
+        android:hint="  ENTER PASSWORD  "
+        android:layout_marginTop="12dp"
+        android:ems="10"
+
+
+        android:inputType="textPassword"
+        android:layout_below="@+id/user"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/pass"
+        />
+
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+
+        android:background="@drawable/rounded_white"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+
+        android:textSize="14sp"
+        android:drawablePadding="5dp"
+        android:singleLine="true"
+        android:padding="10dp"
+
+        android:layout_marginBottom="0dp"
+
+        android:hint=" CONFIRM PASSWORD "
+        android:inputType="textPassword"
+
+        android:ems="10"
+        android:layout_below="@+id/pass"
+        android:layout_marginTop="12dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/cpass"
+        />
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+
+        android:background="@drawable/rounded_white"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+
+        android:textSize="14sp"
+        android:drawablePadding="5dp"
+        android:singleLine="true"
+        android:padding="10dp"
+
+        android:layout_marginBottom="0dp"
+
+        android:hint=" ENTER MOBILE NUMBER "
+        android:inputType="phone"
+
+        android:layout_below="@+id/cpass"
+        android:ems="10"
+        android:layout_marginTop="12dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/mobno"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:linksClickable="true"
+        android:id="@+id/alreadyregister"
+        android:layout_marginTop="20dp"
+        android:onClick="alreadyreg"
+        android:textColor="@color/CanvasBackground"
+        android:layout_below="@+id/mobno"
+        android:autoLink="all"
+        android:layout_marginLeft="100dp"
+        android:text="Already registered? Login"/>
+
+    <Button
+        android:id="@+id/registerbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/alreadyregister"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:background="@color/navy"
+        android:onClick="Register"
+        android:text="REGISTER"
+        android:textColor="@color/CanvasBackground" />
+
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

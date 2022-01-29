@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Contact">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Contact Team"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textSize="30dp"
+                    android:layout_marginLeft="110dp"
+                    android:layout_marginTop="30dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="* Mr. INDRANIL AICH-(M) +91 9831088204"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="15dp"
+                    android:autoLink="phone"
+                    android:linksClickable="true"
+                    android:onClick="mob1"
+                    android:textStyle="bold"
+                    android:textSize="17dp"
+                    android:textColor="@color/colorPrimary"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="* Mrs. JHUMA AICH-(M) +91 9038088204"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="20dp"
+                    android:autoLink="phone"
+                    android:linksClickable="true"
+                    android:onClick="mob2"
+                    android:textStyle="bold"
+                    android:textSize="17dp"
+                    android:textColor="@color/colorPrimary"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="* Office Tel : +91 33 40048408"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="15dp"
+                    android:autoLink="phone"
+                    android:linksClickable="true"
+                    android:onClick="mob3"
+                    android:textStyle="bold"
+                    android:textSize="17dp"
+                    android:textColor="@color/colorPrimary"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="* Fax : +91 33 40048422"
+                    android:layout_marginTop="20dp"
+                    android:autoLink="phone"
+                    android:linksClickable="true"
+                    android:onClick="mob4"
+                    android:textSize="17dp"
+                    android:layout_marginLeft="15dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimary"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="* E-mail : aichpaaraisers@gmail.com"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="15dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimary"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="* Web Site : www.aichapparaisers.com"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="15dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimary"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="KOLKATA OFFICE"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:layout_marginTop="25dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#000"
+                    android:layout_marginLeft="15dp"
+                    android:text="Registered Office : FE 346,Salt Lake City,Kolkata -700 106."/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:textColor="#000"
+                    android:text="Admin Office : FE 113,Salt Lake City,Kolkata -700 106."/>
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+    <android.support.design.widget.NavigationView
+        app:headerLayout="@layout/nav_header"
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@color/CanvasBackground"
+        app:itemTextColor="@color/black"
+        app:itemIconTint="@color/lightGreyLine"
+        android:layout_gravity="start"></android.support.design.widget.NavigationView>
+</android.support.v4.widget.DrawerLayout>
+
+

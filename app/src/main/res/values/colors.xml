@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000080</color>
+    <color name="colorPrimaryDark">#000080</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="ye">#FFE7A559</color>
+    <color name="BorderLineColor">#B8B9B1</color>
+    <color name="CanvasBackground">#ffffff</color>
+    <color name="buttoncolor">#FF7F50</color>
+    <color name="black">#000000</color>
+    <color name="gray">#C0C0C0</color>
+    <color name="blue">#0000FF</color>>
+    <color name="red">#FF0000</color>
+    <color name="oran">#FF5733</color>
+    <color name="navy">#000080</color>
+    <color name="darkgray">#6c6c6c</color>
+
+    <color name="yellow">#fff000</color>
+
+    <color name="pink">#C408AD</color>
+    <color name="lightblue">#A6B8E2</color>
+    <color name="lightgrey">#C4C2C2</color>
+    <color name="purple">#CE93D8</color>
+    <color name="lightpink">#ff4081</color>
+    <color name="primaryColor">#ffc107</color>
+    <color name="primaryColorDark">#ffa000</color>
+    <color name="backgroundColor">#fcfcfc</color>
+    <color name="deepPurple">#7c4dff</color>
+    <color name="materialYellow">#ffb300</color>
+    <color name="materialGreen">#00bfa5</color>
+    <color name="pinkAccent">#ff4081</color>
+    <color name="green">#000080</color>
+    <color name="lightGreyLine">#ededed</color>
+
+
+</resources>

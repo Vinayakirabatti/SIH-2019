@@ -1,0 +1,115 @@
+<resources>
+    <string name="app_name">ANDRODIGI</string>
+
+    <string name="ref_no">REFERENCENO</string>
+
+    <string name="Purpose1">PURPOSE </string>
+    <string name="BankValuationfor">BankValuation</string>
+    <string name="ContractNo">Contract No. </string>
+    <string name="Requestfrom">Request from  </string>
+    <string name="AssetMake">Asset Make </string>
+    <string name="AssetModel">Asset Model  </string>
+    <string name="Yearofmfg">Year of mfg  </string>
+    <string name="RepossessionDate">Repossession Date  </string>
+    <string name="RCFitnessValid">RCFitnessValid   </string>
+    <string name="HMR_KMR">HMR/KMR </string>
+    <string name="Chassisno">Chassis Number </string>
+    <string name="Engineno">Engine Number </string>
+    <string name="RC_NO">RC Number</string>
+
+
+    <string name="button_feedback">Send feedback</string>
+    <string name="title_send_feedback">Send feedback</string>
+
+    <string name="mail_feedback_email">YourEmailAdress</string>
+    <string name="mail_feedback_subject">Feedback on your app</string>
+    <string name="mail_feedback_message">Hi,\n\nYour Feedback sample app rocks! I would like to give you some feedback:</string>
+
+    <string name="RC_Status">RC Status</string>
+    <string name="Inspector">Inspector</string>
+    <string name="Location">Location</string>
+    <string name="Inspection_Date">Inspection Date</string>
+    <string name="TaxStatus">Tax Status</string>
+    <string-array name="values">
+        <item>Found</item>
+        <item>Appears to be Average condition unit is locked</item>
+        <item>Could not be checked</item>
+        <item>Not applicable</item>
+        <item>Appears to be Average condition</item>
+        <item>Found, Rs 1000/-</item>
+        <item>Available</item>
+        <item>Average condition,Rs 1000/-</item>
+        <item>Average condition</item>
+        <item>Overall body maintenance, Rs 15000/-</item>
+        <item>Could not be checked since battery was missing</item>
+        <item>Missing, Rs 4000/-, Servicing cost, Rs 2000/-</item>
+        <item>Not available</item>
+
+    </string-array>
+    <string name="buyer">BUYER</string>
+    <string name="warenty_coast">WARRANTY COST</string>
+    <string name="transportayion_coast">TRANSPORATION</string>
+    <string name="rto_expences">RTO EXPENSES</string>
+    <string name="insurance_cost">INSURANCE COST</string>
+    <string name="taxes_penalty">TAXES + PENALTY</string>
+    <string name="refurb_coast">REFURB COST</string>
+    <string name="parking_charges">PARKING</string>
+    <string name="total_coast">TOTAL COST</string>
+    <string name="rating">Rating</string>
+
+
+    <string name="hint_sign">Get Signature</string>
+
+    <string name="sign_here_title">Sign Here</string>
+
+    <string name="hint_cancel">Cancel</string>
+
+    <string name="hint_clear">Clear</string>
+
+    <string name="hint_save">Save</string>
+
+    <string name="bill_details_title">Vehicle Details</string>
+
+    <string name="date">Date</string>
+
+    <string name="date_data">14 feb 2019</string>
+
+    <string name="order_no">Vehicle Number</string>
+
+    <string name="order_no_data">10798565</string>
+
+    <string name="buyers_name">Buyer\'s Name</string>
+
+    <string name="buyers_name_data">Vinayak</string>
+
+    <string name="buyers_address">Buyer\'s Address</string>
+
+    <string name="buyers_address_data">karnik Nagar</string>
+
+    <string name="contact_no">Contact Number</string>
+
+    <string name="contact_no_data">9834616082</string>
+
+    <string name="total_amount">Total Amount</string>
+
+    <string name="total_amount_data">Rs 150000</string>
+
+    <string name="checkbox_text">I have verified all the details</string>
+
+    <string name="get_signature_text">Get Signature</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="title_activity_login">Sign in</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Enter UserName</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+</resources>

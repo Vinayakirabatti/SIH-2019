@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <fr.ganfra.materialspinner.MaterialSpinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Instrument_Cluster_WarningLights_Gauges"
+            app:ms_arrowColor="@color/colorAccent"
+            app:ms_arrowSize="16dp"
+            app:ms_floatingLabelColor="@color/colorPrimary"
+            app:ms_floatingLabelText="Instrument_Cluster_WarningLights_Gauges"
+            app:ms_hint="Instrument_Cluster_WarningLights_Gauges"
+            app:ms_hintColor="@color/colorAccent"
+            app:ms_multiline="true">
+
+        </fr.ganfra.materialspinner.MaterialSpinner>
+
+        <fr.ganfra.materialspinner.MaterialSpinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Instrument_Cluster_WarningLights_Gauges"
+            android:id="@+id/Alternator"
+            app:ms_arrowColor="@color/colorAccent"
+            app:ms_arrowSize="16dp"
+            app:ms_floatingLabelColor="@color/colorPrimary"
+            app:ms_floatingLabelText="Alternator"
+            app:ms_hint="Alternator"
+            app:ms_hintColor="@color/colorAccent"
+            app:ms_multiline="true">
+
+        </fr.ganfra.materialspinner.MaterialSpinner>
+
+        <fr.ganfra.materialspinner.MaterialSpinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Alternator"
+            android:id="@+id/Fuel_Pump"
+            app:ms_arrowColor="@color/colorAccent"
+            app:ms_arrowSize="16dp"
+            app:ms_floatingLabelColor="@color/colorPrimary"
+            app:ms_floatingLabelText="Fuel_Pump"
+            app:ms_hint="Fuel_Pump"
+            app:ms_hintColor="@color/colorAccent"
+            app:ms_multiline="true">
+
+        </fr.ganfra.materialspinner.MaterialSpinner>
+
+        <fr.ganfra.materialspinner.MaterialSpinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Fuel_Pump"
+            android:id="@+id/Battery_Condition"
+            app:ms_arrowColor="@color/colorAccent"
+            app:ms_arrowSize="16dp"
+            app:ms_floatingLabelColor="@color/colorPrimary"
+            app:ms_floatingLabelText="Battery_Condition"
+            app:ms_hint="Battery_Condition"
+            app:ms_hintColor="@color/colorAccent"
+            app:ms_multiline="true">
+
+        </fr.ganfra.materialspinner.MaterialSpinner>
+
+        <fr.ganfra.materialspinner.MaterialSpinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Battery_Condition"
+            android:id="@+id/Starter_Motar"
+            app:ms_arrowColor="@color/colorAccent"
+            app:ms_arrowSize="16dp"
+            app:ms_floatingLabelColor="@color/colorPrimary"
+            app:ms_floatingLabelText="Starter_Motar"
+            app:ms_hint="Starter_Motar"
+            app:ms_hintColor="@color/colorAccent"
+            app:ms_multiline="true">
+
+        </fr.ganfra.materialspinner.MaterialSpinner>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SAVE"
+            android:textColor="@color/CanvasBackground"
+            android:background="@color/navy"
+            android:layout_marginLeft="100dp"
+            android:layout_below="@+id/Starter_Motar"
+            android:id="@+id/save4"
+            tools:ignore="UnknownId" />
+    </RelativeLayout>
+</ScrollView>
